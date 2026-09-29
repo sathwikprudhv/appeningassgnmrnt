@@ -1,0 +1,21 @@
+# Rename this file to .gitignore before running git add.
+.env
+.env.*
+!env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+*.pdf
+ingestion.json
+ingestion.tmp
+.streamlit/secrets.toml
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+ingestion.json
+*.log
